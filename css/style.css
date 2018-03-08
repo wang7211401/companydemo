@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
+    width: 100%;
     background-color: #222;
     border-color: transparent
 }
@@ -161,22 +162,24 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136
+    background-color: #fed136;
 }
 
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503
+    background-color: #fec503;
 }
 
 @media (min-width:768px) {
     .navbar-default {
+        width: 100%;
+        margin: 0 auto;
         background-color: transparent;
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-        border: 0
+        border: 0;
     }
     .navbar-default .navbar-brand {
         font-size: 2em;
